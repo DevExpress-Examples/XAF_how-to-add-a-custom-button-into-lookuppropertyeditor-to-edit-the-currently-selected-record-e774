@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.Party">
+      <OwnMembers>
+        <Member Name="Address1" PropertyEditorType="WinSolution.Module.Win.MyLookupPropertyEditor" />
+        <Member Name="Address2" PropertyEditorType="WinSolution.Module.Win.MyLookupPropertyEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <DetailViewItems />
+  <Views>
+    <ListView Id="MyPerson_ListView" EditMode="Editable" />
+  </Views>
+</Application>

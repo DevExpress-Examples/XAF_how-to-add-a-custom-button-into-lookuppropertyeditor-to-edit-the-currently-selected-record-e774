@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSolution.Module", "WinSolution.Module\WinSolution.Module.csproj", "{35F57F7D-051F-459F-9439-36F74076DD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSolution.Module.Win", "WinSolution.Module.Win\WinSolution.Module.Win.csproj", "{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSolution.Win", "WinSolution.Win\WinSolution.Win.csproj", "{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35F57F7D-051F-459F-9439-36F74076DD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F57F7D-051F-459F-9439-36F74076DD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F57F7D-051F-459F-9439-36F74076DD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F57F7D-051F-459F-9439-36F74076DD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
