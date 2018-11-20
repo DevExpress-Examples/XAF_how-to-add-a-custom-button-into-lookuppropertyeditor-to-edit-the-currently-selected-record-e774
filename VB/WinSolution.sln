@@ -1,10 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinSolution.Win", "WinSolution.Win\WinSolution.Win.vbproj", "{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}"
+EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinSolution.Module", "WinSolution.Module\WinSolution.Module.vbproj", "{35F57F7D-051F-459F-9439-36F74076DD9F}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinSolution.Module.Win", "WinSolution.Module.Win\WinSolution.Module.Win.vbproj", "{BFD03445-AB19-412F-AB59-75B4B8AF4C6C}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinSolution.Win", "WinSolution.Win\WinSolution.Win.vbproj", "{22782832-92C2-4D23-BCD0-F02FB9EFA4C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
