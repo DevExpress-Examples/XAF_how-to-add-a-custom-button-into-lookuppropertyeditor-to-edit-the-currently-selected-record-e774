@@ -102,7 +102,6 @@
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Validation.Win.v18.2">
       <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Win.v18.2">
       <SpecificVersion>False</SpecificVersion>
@@ -145,6 +144,7 @@
     </Reference>
     <Reference Include="DevExpress.Docs.v18.2">
       <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Office.v18.2.Core">
       <SpecificVersion>False</SpecificVersion>

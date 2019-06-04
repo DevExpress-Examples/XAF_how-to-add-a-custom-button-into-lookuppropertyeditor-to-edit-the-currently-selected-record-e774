@@ -6,11 +6,11 @@ Imports System.Reflection
 
 
 Namespace WinSolution.Module
-    Public NotInheritable Partial Class WinSolutionModule
-        Inherits ModuleBase
+	Public NotInheritable Partial Class WinSolutionModule
+		Inherits ModuleBase
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+		End Sub
+	End Class
 End Namespace

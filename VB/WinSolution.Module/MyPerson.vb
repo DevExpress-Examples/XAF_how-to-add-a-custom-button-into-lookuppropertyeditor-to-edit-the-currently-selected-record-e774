@@ -6,12 +6,12 @@ Imports DevExpress.Xpo
 Imports DevExpress.Persistent.Base
 
 Namespace WinSolution.Module
-    <DefaultClassOptions> _
-    Public Class MyPerson
-        Inherits Person
+	<DefaultClassOptions>
+	Public Class MyPerson
+		Inherits Person
 
-        Public Sub New(ByVal session As Session)
-            MyBase.New(session)
-        End Sub
-    End Class
+		Public Sub New(ByVal session As Session)
+			MyBase.New(session)
+		End Sub
+	End Class
 End Namespace
