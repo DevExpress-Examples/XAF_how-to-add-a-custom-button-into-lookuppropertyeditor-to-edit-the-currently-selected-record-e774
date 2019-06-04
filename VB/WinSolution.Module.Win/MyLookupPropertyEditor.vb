@@ -23,7 +23,7 @@ Namespace WinSolution.Module.Win
         End Sub
         Private Sub MyLookupPropertyEditor_ButtonClick(ByVal sender As Object, ByVal e As ButtonPressedEventArgs)
             If Not e.Button.IsDefaultButton Then
-                Dim objectSpace As IObjectSpace = Helper.Application.CreateObjectSpace()
+                Dim objectSpace As IObjectSpace = Helper.Application.CreateObjectSpace(Me.ObjectType)
                 Dim editedObject As Object = Nothing
                 If BindingHelper IsNot Nothing Then
                     editedObject = objectSpace.GetObject(BindingHelper.GetControlValue())

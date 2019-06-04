@@ -19,7 +19,7 @@ namespace WinSolution.Module.Win {
         }
         void MyLookupPropertyEditor_ButtonClick(object sender, ButtonPressedEventArgs e) {
             if (!e.Button.IsDefaultButton) {
-                IObjectSpace objectSpace = Helper.Application.CreateObjectSpace();
+                IObjectSpace objectSpace = Helper.Application.CreateObjectSpace(this.ObjectType);
                 object editedObject = null;
                 if (BindingHelper != null) {
                     editedObject = objectSpace.GetObject(BindingHelper.GetControlValue());
