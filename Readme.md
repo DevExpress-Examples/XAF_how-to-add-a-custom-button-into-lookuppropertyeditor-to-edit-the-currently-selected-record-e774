@@ -14,6 +14,7 @@
 
 <p>
 LookupPropertyEditor is represented in a detail view by the LookUpEdit control, which allows various customizations. You can customize it by adding a special button that invokes a detail view for the selected object or performs any other actions.<br />
+  
   ![image](https://github.com/DevExpress-Examples/XAF_how-to-add-a-custom-button-into-lookuppropertyeditor-to-edit-the-currently-selected-record-e774/assets/14300209/e66d830c-c92f-45e3-a74c-742912767a87)
 
   <br /><br /><strong>See Also:</strong></p>
