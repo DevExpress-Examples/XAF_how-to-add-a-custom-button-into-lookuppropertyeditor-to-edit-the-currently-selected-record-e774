@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Model.DesignedDiffs.xafml](./CS/WinSolution.Module.Win/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/WinSolution.Module.Win/Model.DesignedDiffs.xafml))
-* [MyLookupPropertyEditor.cs](./CS/WinSolution.Module.Win/MyLookupPropertyEditor.cs) (VB: [MyLookupPropertyEditor.vb](./VB/WinSolution.Module.Win/MyLookupPropertyEditor.vb))
+* [Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml) 
+* [MyLookupPropertyEditor.cs](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Editors/MyLookupPropertyEditor.cs)
 <!-- default file list end -->
 # How to add a custom button into LookupPropertyEditor to edit the currently selected record
 
