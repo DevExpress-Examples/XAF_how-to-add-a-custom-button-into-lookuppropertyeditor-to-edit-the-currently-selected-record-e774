@@ -9,7 +9,7 @@
 * [Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml) 
 * [MyLookupPropertyEditor.cs](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Editors/MyLookupPropertyEditor.cs)
 <!-- default file list end -->
-# How to add a custom button into LookupPropertyEditor to edit the currently selected record
+# How to add a custom button into WinForms LookupPropertyEditor to edit the currently selected record
 
 
 <p>
