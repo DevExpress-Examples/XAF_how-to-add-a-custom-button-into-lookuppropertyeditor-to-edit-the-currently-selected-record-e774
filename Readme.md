@@ -5,14 +5,34 @@
 <!-- default badges end -->
 
 
-# How to add a custom button into WinForms LookupPropertyEditor to edit the currently selected record
+# XAF WinForms - How to add a custom Edit button into LookupPropertyEditor
 
-This example shows how to create LookupPropertyEditor descendant with a custom button.
+This example creates [LookupPropertyEditor](https://docs.devexpress.com/eXpressAppFramework/113572/business-model-design-orm/data-types-supported-by-built-in-editors/reference-foreign-key-complex-type-properties#lookuppropertyeditor-1) descendant with a custom Edit button.
 ![image](https://github.com/DevExpress-Examples/XAF_how-to-add-a-custom-button-into-lookuppropertyeditor-to-edit-the-currently-selected-record-e774/assets/14300209/af3ac121-79d7-403d-9072-4e151cffd573)
 
+## Implementation Details
 
-LookupPropertyEditor is represented in a detail view by the LookUpEdit control, which allows various customizations. Here we show how to add a custom button that invokes a detail view for the selected object or performs any other actions.
-  
+Follow the steps below to add a custom button to LookupPropertyEditor:
+
+1. Create a [LookupPropertyEditor](https://docs.devexpress.com/eXpressAppFramework/113572/business-model-design-orm/data-types-supported-by-built-in-editors/reference-foreign-key-complex-type-properties#lookuppropertyeditor-1) descendant ([MyLookupPropertyEditor.cs](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Editors/MyLookupPropertyEditor.cs)).
+1. Access the [RepositoryItemLookupEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit) and use its settings to customize LookupPropertyEditor:
+    * Populate the [Buttons](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.Buttons) collection with a custom button:
+        ```csharp
+        ((RepositoryItemLookupEdit)item).Buttons.Add(new EditorButton(ButtonPredefines.Glyph, "Edit", -1, true,
+            true, true, HorzAlignment.Default, null, new KeyShortcut(System.Windows.Forms.Keys.Enter), 
+            appearance, "Press this button to edit the object"));
+        ```
+    * Subscribe to the [ButtonClick](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.ButtonClick) event and implement custom logic in the event handler:
+        ```csharp
+        ((RepositoryItemLookupEdit)item).ButtonClick += new ButtonPressedEventHandler(MyLookupPropertyEditor_ButtonClick);
+        // ...
+        void MyLookupPropertyEditor_ButtonClick(object sender, ButtonPressedEventArgs e) {
+            //...
+        }
+        ```
+1. Assign the LookupPropertyEditor descendant to a business object's PropertyEditorType in the Model Editor ([Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml)).
+
+
 ## Files to Review
 
 - [Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml) 
