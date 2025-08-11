@@ -5,9 +5,9 @@
 <!-- default badges end -->
 
 
-# XAF WinForms - How to add a custom Edit button into LookupPropertyEditor
+# XAF WinForms - How to add a custom Edit button to LookupPropertyEditor
 
-This example creates [LookupPropertyEditor](https://docs.devexpress.com/eXpressAppFramework/113572/business-model-design-orm/data-types-supported-by-built-in-editors/reference-foreign-key-complex-type-properties#lookuppropertyeditor-1) descendant with a custom Edit button.
+This example creates a [LookupPropertyEditor](https://docs.devexpress.com/eXpressAppFramework/113572/business-model-design-orm/data-types-supported-by-built-in-editors/reference-foreign-key-complex-type-properties#lookuppropertyeditor-1) descendant with a custom Edit button.
 ![image](https://github.com/DevExpress-Examples/XAF_how-to-add-a-custom-button-into-lookuppropertyeditor-to-edit-the-currently-selected-record-e774/assets/14300209/af3ac121-79d7-403d-9072-4e151cffd573)
 
 ## Implementation Details
@@ -17,8 +17,8 @@ Follow the steps below to add a custom button to LookupPropertyEditor:
 1. Create a [LookupPropertyEditor](https://docs.devexpress.com/eXpressAppFramework/113572/business-model-design-orm/data-types-supported-by-built-in-editors/reference-foreign-key-complex-type-properties#lookuppropertyeditor-1) descendant ([MyLookupPropertyEditor.cs](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Editors/MyLookupPropertyEditor.cs)).
 
 2. Access the [RepositoryItemLookupEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit) and use its settings to customize LookupPropertyEditor:
-    * Populate the [Buttons](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.Buttons) collection with a custom button:
-    * Subscribe to the [ButtonClick](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.ButtonClick) event and implement custom logic in the event handler:
+    * Add a custom button to the [Buttons](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.Buttons) collection.
+    * Subscribe to the [ButtonClick](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.ButtonClick) event and implement custom logic in the event handler.
 3. Assign the LookupPropertyEditor descendant to a business object's PropertyEditorType in the Model Editor ([Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml)).
 
 
