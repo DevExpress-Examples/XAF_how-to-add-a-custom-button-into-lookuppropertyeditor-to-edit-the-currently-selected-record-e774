@@ -21,16 +21,15 @@ Follow the steps below to add a custom button to LookupPropertyEditor:
     * Subscribe to the [ButtonClick](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.ButtonClick) event and implement custom logic in the event handler.
 3. Assign the LookupPropertyEditor descendant to a business object's PropertyEditorType in the Model Editor ([Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml)).
 
-
 ## Files to Review
 
 - [Model.xafml](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Model.xafml) 
 - [MyLookupPropertyEditor.cs](CS/EFCore/LookUpButtonEF/LookUpButtonEF.Win/Editors/MyLookupPropertyEditor.cs)
 
-
 ## Documentation
 
 - [Customize a Built-in Property Editor (WinForms)](https://docs.devexpress.com/eXpressAppFramework/113104/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-winforms)
+
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
