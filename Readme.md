@@ -25,7 +25,7 @@ LookupPropertyEditor is represented in a detail view by the LookUpEdit control, 
 
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XAF_how-to-add-a-custom-button-into-lookuppropertyeditor-to-edit-the-currently-selected-record-e774&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XAF_how-to-add-a-custom-button-into-lookuppropertyeditor-to-edit-the-currently-selected-record-e774&~~~was_helpful=no)
 
