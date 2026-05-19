@@ -18,7 +18,6 @@ public class LookUpButtonEFWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "LookUpButtonEF";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += LookUpButtonEFWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += LookUpButtonEFWindowsFormsApplication_CustomizeLanguagesList;
     }

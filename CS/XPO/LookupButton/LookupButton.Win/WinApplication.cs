@@ -14,7 +14,6 @@ public class LookupButtonWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "LookupButton";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += LookupButtonWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += LookupButtonWindowsFormsApplication_CustomizeLanguagesList;
     }
